@@ -1,8 +1,7 @@
 "use client";
 import Job from "@/components/Job";
 import Nav from "@/components/Nav";
-import React, { FC, useState, useEffect, use } from "react";
-import useSwrJobs from "@/hooks/useSwrJobs";
+import React, { FC, useState } from "react";
 import { Job as JobType } from "@/models/Job";
 
 const UserHomePage: FC = () => {
